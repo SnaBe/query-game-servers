@@ -1,0 +1,43 @@
+{
+  "name": "query-game-servers",
+  "version": "1.0.0",
+  "description": "A web-app for querying & displaying game servers.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm run serve --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnaBe/query-game-servers.git"
+  },
+  "keywords": [
+    "web",
+    "app",
+    "game-servers"
+  ],
+  "author": "Simon S. Sørensen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SnaBe/query-game-servers-app/issues"
+  },
+  "homepage": "https://github.com/SnaBe/query-game-servers-app#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.28",
+    "concurrently": "^4.1.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0",
+    "popper.js": "^1.15.0",
+    "unirest": "^0.6.0",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
