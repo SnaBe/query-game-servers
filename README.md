@@ -1,5 +1,5 @@
 # Query Valve Game Servers
-> Full stack Vue.js / Express.js app using the Gameserver Query API to query game servers.
+> Full stack Vue.js / Express.js app using the Gameserver Query API to query game servers from Valve games.
 
 ## General information
 
